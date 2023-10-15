@@ -8,7 +8,7 @@
     "check": "deno fmt && deno lint && deno check dev.ts main.ts",
     "install": "deno eval 'import \"deco/scripts/apps/install.ts\"'",
     "uninstall": "deno eval 'import \"deco/scripts/apps/uninstall.ts\"'",
-    "bundle": "deno eval 'import \"deco/scripts/apps/bundle.ts\"' deco-sites/boilerplaten1",
+    "bundle": "deno eval 'import \"deco/scripts/apps/bundle.ts\"' deco-sites/teste10",
     "build": "deno run -A dev.ts build",
     "preview": "deno run -A main.ts"
   },
@@ -17,7 +17,9 @@
   "nodeModulesDir": true,
   "compilerOptions": { "jsx": "react-jsx", "jsxImportSource": "preact" },
   "imports": {
-    "deco-sites/boilerplaten1/": "./",
+    "deco-sites/teste10/": "./",
+
+    "deco-sites/teste10/": "./",
     "deco-sites/fashion/": "./",
     "$store/": "./",
     "deco-sites/std/": "https://denopkg.com/deco-sites/std@1.22.11/",
